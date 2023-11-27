@@ -7,6 +7,7 @@ export default function Player() {
   function isSubmit() {
     // console.log(playerName.current.value)
     setInputName(playerName.current.value);
+    playerName.current.value = "";
   }
   return (
     <section id="player">
